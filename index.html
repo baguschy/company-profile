@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="asset/css/company-css.css" />
+    <title>DevUs</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="navigation">
+        <ul class="topnav">
+          <li class="nav-brand">
+            <img src="asset/img/logo.png" alt="" />
+          </li>
+          <div class="nav-menus">
+            <li>
+              <a class="text-menu" id="aboutNav" href="#about">About</a>
+            </li>
+            <li>
+              <a class="text-menu" id="priceNav" href="#price">Pricing </a>
+            </li>
+            <li>
+              <a class="text-menu" id="serviceNav" href="#services">Services</a>
+            </li>
+            <li>
+              <a class="text-menu" id="contactNav" href="#contact">Contact</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <button
+        onclick="goUpContent()"
+        title="Kembali ke Atas"
+        id="btn-goTop"
+        class="btn-goTop"
+      >
+        <i class="fa-solid fa-rocket"></i>
+      </button>
+      <div class="hero" id="about">
+        <p class="title-hero">Dev<span class="alt-title">Us</span></p>
+        <p class="desc-hero">
+          Website yang bergerak dibidang jasa Digital Marketing, Desain Grafis
+          dan pembuatan Website untuk kebutuhan anda.
+        </p>
+        <button class="btn-hero">Learn More</button><br />
+        <img src="asset/img/Group 3.png" class="img-hero" alt="" width="50%" />
+      </div>
+    </section>
+    <section class="pricing" id="price">
+      <div class="head-price">
+        <p class="title-price">
+          Our <span class="alt-title-price">Pricing</span>
+        </p>
+        <p class="desc-price">Penawaran tebaik untuk anda</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <p class="cat-price">BASIC</p>
+            <p class="list-price">20 k/project</p>
+            <p class="desc-cat">
+              10 Graphic Content Design Theme 5 Photo Product
+            </p>
+            <button style="margin-top: 100px" class="btn-price">
+              Get This
+            </button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card-primary">
+            <p class="cat-price-primary">STANDARD</p>
+            <p class="list-price-primary">30 k/project</p>
+            <p class="desc-cat-primary">
+              15 Graphic Content Design Theme 5 Photo Product Caption & Hashtag
+            </p>
+            <button style="margin-top: 59.5px" class="btn-price-primary">
+              Get This
+            </button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <p class="cat-price">PREMIUM</p>
+            <p class="list-price">50 k/project</p>
+            <p class="desc-cat">
+              25 Graphic Content Design Theme 10 Photo & Video Caption & Hashtag
+              Web Landing Page
+            </p>
+            <button class="btn-price">Get This</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="head-services">
+        <p class="title-services">
+          Our <span class="alt-title-services">Services</span>
+        </p>
+        <p class="desc-services">Layanan yang kami tawarkan untuk anda</p>
+        <div class="row">
+          <div class="column">
+            <div class="cards">
+              <img
+                src="asset/img/Icon Design.png"
+                class="img-services"
+                alt=""
+                width="40%"
+              />
+              <p class="cat-services">Design</p>
+              <p class="desc-alt-services">
+                Membuat tampilan instagram anda lebih menarik
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="cards">
+              <img
+                src="asset/img/Icon Design (1).png"
+                class="img-services"
+                width="40%"
+                alt=""
+              />
+              <p class="cat-services">Photo</p>
+              <p class="desc-alt-services" style="margin-bottom: 35px">
+                Membuat foto produk anda lebih menarik
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="cards">
+              <img
+                src="asset/img/Icon Design (2).png"
+                class="img-services"
+                width="40%"
+                alt=""
+              />
+              <p class="cat-services">Video</p>
+              <p class="desc-alt-services" style="margin-bottom: 35px">
+                Pengambilan video dan mengedit video
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="columns">
+          <div class="cards-rows">
+            <img
+              src="asset/img/Icon Design (3).png"
+              class="img-services"
+              style="margin-left: 65px; margin-top: 20px"
+              alt=""
+              width="40%"
+            />
+            <p class="cat-services">Caption</p>
+            <p class="desc-alt-services">
+              Membuat bahasa yang persuasif untuk menarik audiens
+            </p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="cards-rows">
+            <img
+              src="asset/img/Icon Design (4).png"
+              style="align-items: center; margin-top: 20px"
+              class="img-services"
+              alt=""
+              width="40%"
+            />
+            <p class="cat-services">Landing Page</p>
+            <p class="desc-alt-services" style="padding: 0 5px 0 5px">
+              Membuat halaman website untuk kepentingan marketing
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us" id="contact">
+      <div class="head-contact">
+        <br />
+        <p class="title-head">Contact Us</p>
+        <div class="row-contact">
+          <div class="column-contact">
+            <div class="card-contact">
+              <p class="title-card">SEND A MESSAGE</p>
+              <form
+                onsubmit="confirmSubmit()"
+                name="messageForm"
+                action=""
+                method="post"
+              >
+                <table>
+                  <tr>
+                    <td>
+                      <label for="name" class="label-input">Your Name</label
+                      ><br />
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                        autocomplete="off"
+                        oninvalid="this.setCustomValidity('Nama anda siapa?')"
+                        oninput="this.setCustomValidity('')"
+                      />
+                    </td>
+                    <td>
+                      <div class="input-form">
+                        <label for="number" class="label-input"
+                          >Mobile Number</label
+                        ><br />
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="number"
+                          name="number"
+                          placeholder="Enter your number"
+                          required
+                          oninvalid="this.setCustomValidity('Nomor handphone anda berapa?')"
+                          oninput="this.setCustomValidity('')"
+                        />
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="form-email">
+                        <label for="subject" class="label-input">Subject</label
+                        ><br />
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          name="subject"
+                          autocomplete="off"
+                          placeholder="Enter your subject"
+                          required
+                          oninvalid="this.setCustomValidity('Tolong isi subjectnya!')"
+                          oninput="this.setCustomValidity('')"
+                        />
+                      </div>
+                    </td>
+                    <td>
+                      <div class="input-form form-email">
+                        <label for="email" class="label-input"
+                          >Email Address</label
+                        ><br />
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          name="email"
+                          autocomplete="off"
+                          placeholder="Enter your email"
+                          required
+                          oninvalid="this.setCustomValidity('Nama emailnya apa?')"
+                          oninput="this.setCustomValidity('')"
+                        />
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <div class="input-message">
+                  <label for="text-message" class="label-input"
+                    >Write your message here .....</label
+                  >
+                  <br />
+                  <textarea
+                    name="text-message"
+                    class="form-message"
+                    id="message"
+                    cols="77"
+                    rows="6"
+                    placeholder="Write your message"
+                    required
+                    oninvalid="this.setCustomValidity('Isi pesannya apa?')"
+                    oninput="this.setCustomValidity('')"
+                  ></textarea>
+                </div>
+                <div class="btn-action-form">
+                  <button type="submit" class="btn-submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+    </section>
+    <section class="footer">
+      <div class="content-footer">
+        <table style="margin-bottom: 30px">
+          <tr>
+            <td>
+              <p class="label-footer">DevUs</p>
+              <p class="desc-label">Website jasa digital marketing,</p>
+              <p class="alt-desc-label">design grafis dan pembuatan website.</p>
+            </td>
+            <td>
+              <div class="general-information">
+                <p class="label-information">General Information</p>
+                <table>
+                  <tr>
+                    <td>
+                      <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </td>
+                    <td>
+                      <p class="desc-us">
+                        Perum Telaga Murni, Jl. Semangka 1, <br />Kab. Bekasi,
+                        Kec. CIkarang Barat 17530
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fa-sharp fa-solid fa-envelope"></i>
+                    </td>
+                    <td>
+                      <p class="desc-us">hgostline.gt@gmail.com</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fa-sharp fa-solid fa-phone"></i>
+                    </td>
+                    <td>
+                      <p class="desc-us">0896-3124-2977</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td>
+              <div class="icon-sosmed">
+                <a href="javascript:void(0);" class="fb-sosmed">
+                  <i class="fa-brands fa-square-facebook fa-3x"></i>
+                </a>
+                <a href="javascript:void(0);" class="space-icon twitter-sosmed">
+                  <i class="fa-brands fa-twitter fa-3x"></i>
+                </a>
+                <a href="javascript:void(0);" class="space-icon ig-sosmed">
+                  <i class="fa-brands fa-instagram fa-3x"></i>
+                </a>
+                <p class="text-cr">&copy; Copyright DevUs 2022</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.slim.js"
+      integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="asset/js/main.js"></script>
+  </body>
+</html>
